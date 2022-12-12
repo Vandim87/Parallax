@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1, h2{
+    color: black;
+    font-weight: 900;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+main{
+    display: block;
+}
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 750px;
+}
+section.modulo p{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+section.modulo:lost-chil{
+    margin-bottom: 0px;
+}
+section.modulo h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+section.modulo.content{
+    padding: 40px 0;
+    background-color: bisque;
+}
+section.modulo.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.modulo.box h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    z-index: 10;
+
+}
+section.modulo.parallax-1{
+    background-image: url(img/baixados.jpg);
+}
+section.modulo.parallax-2{
+    background-image: url(img/OIP.jpg);
+}
+section.modulo.parallax-3{
+    background-image: url(img/canary-islands-4k-hg-2560x1440.jpg);
+}
