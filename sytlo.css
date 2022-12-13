@@ -54,7 +54,7 @@ section.modulo.box h1{
     text-align: center;
     font-size: 60px;
     z-index: 10;
-
+    text-shadow: 1px 1px 1px black;
 }
 section.modulo.parallax-1{
     background-image: url(img/baixados.jpg);
