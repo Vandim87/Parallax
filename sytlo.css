@@ -65,3 +65,7 @@ section.modulo.parallax-2{
 section.modulo.parallax-3{
     background-image: url(img/canary-islands-4k-hg-2560x1440.jpg);
 }
+form{
+    width: 50px;
+    height: 20px;
+}
